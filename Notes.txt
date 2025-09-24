@@ -1,0 +1,206 @@
+HTML & Web Development Basics
+
+=> Install Visual Studio Code
+
+Download and install: https://code.visualstudio.com/download
+
+Install Live Server extension for real-time preview.
+Live Server on VS Marketplace
+
+
+
+
+
+
+
+=> The Anatomy of the Web – How Websites Work?
+
+Client -> Your device (laptop, mobile) + browser (Chrome, Firefox).
+Server -> Special computers storing websites.
+Browser requests -> Server sends a copy of the webpage → Browser displays it.
+
+
+
+
+
+
+
+=> Introduction to HTML
+
+HTML (HyperText Markup Language) is the standard language for creating webpages.
+HTML is a markup language, not a programming language.
+HTML documents are made of elements, written using tags.
+
+
+
+
+
+
+
+=> HTML Document Structure
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Page</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is my first HTML page.</p>
+</body>
+</html>
+
+
+<!DOCTYPE html> → Defines document type (HTML5).
+<html> → Root element.
+<head> → Metadata section.
+<title> → Page title (shown in browser tab).
+<body> → Visible content of the page.
+
+
+
+
+
+
+=> HTML Tags
+
+Structure of an Element
+Opening Tag: <p>
+Closing Tag: </p>
+Content: "Hello"
+Element = Opening + Content + Closing
+
+
+
+
+
+
+
+=> Attributes
+
+Extra info about an element (e.g., class, id).
+Syntax: name="value"
+Rules:
+Space between tag name & attribute.
+Multiple attributes separated by spaces.
+
+Empty Elements -> Don’t need closing tag.
+Examples: <img>, <br>, <hr>
+
+
+
+
+
+
+
+=> HTML Texts
+
+Headings & Paragraphs
+
+<h1> -> <h6> (biggest to smallest)
+<p> -> Paragraph
+
+
+
+
+
+
+=> Text Formatting Tags
+
+<b> -> Bold
+<strong> -> Important text
+<i> -> Italic
+<em> -> Emphasized
+<mark> -> Highlighted
+<small> -> Smaller text
+<del> -> Deleted
+<ins> -> Inserted
+<sub> -> Subscript
+<sup> -> Superscript
+
+
+
+
+
+=> The <head> Element
+
+<title> -> Page title (browser tab).
+<script> -> Add JavaScript.
+<link> -> Link external CSS/JS.
+
+
+
+
+
+
+=> Tables in HTML
+Basic Table
+
+<table>
+  <tr>
+    <td>History</td>
+    <td>18</td>
+    <td>N</td>
+  </tr>
+</table>
+
+CSS Borders
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+
+
+=> Images in HTML
+
+<img> tag -> Embeds an image
+
+=> Empty element
+
+Required attributes:
+
+src -> Path to image
+alt -> Alternate text
+<img src="cat.jpg" alt="Cute Cat">
+
+
+
+
+
+
+
+
+=> Links in HTML
+
+Basic
+<a href="https://www.google.com">Click Here</a>
+
+Attributes
+href -> Destination URL
+target="_blank" -> Open in new tab
+
+
+
+
+
+
+
+
+
+=> HTML <iframe> Tag
+
+1. Definition
+
+<iframe> = Inline Frame
+Used to embed another HTML page, video, map, or other web content inside your current webpage.
+It creates a “window” in your page showing another webpage.
+
+2. Basic Syntax
+
+<iframe src="URL"></iframe>
+src → The URL of the page or content you want to embed.
