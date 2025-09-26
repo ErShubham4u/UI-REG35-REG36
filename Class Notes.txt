@@ -99,3 +99,159 @@ Internal CSS → Written inside <style> tag in <head> section.
     border-collapse: collapse;
   }
 </style>
+
+
+
+
+10. Lists in HTML
+
+1. Ordered List (Numbered List)
+Concept:
+
+Ordered List is created using <ol> tag.
+Each list item is written inside <li> tag.
+Numbers (1, 2, 3 …) are shown automatically.
+
+Example:
+
+<h3>Ordered List Example</h3>
+<ol>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Mango</li>
+</ol>
+
+
+Type Attribute:
+
+type="1" -> Numbers (default)
+type="A" -> Uppercase Letters
+type="a" -> Lowercase Letters
+type="I" -> Upper Roman
+type="i" -> Lower Roman
+
+Example with Type:
+
+<ol type="A">
+  <li>Math</li>
+  <li>Science</li>
+  <li>English</li>
+</ol>
+
+2. Unordered List (Bulleted List)
+
+Concept:
+
+Unordered List is created using <ul> tag.
+Items inside <li> appear with bullets by default.
+
+Example:
+
+<h3>Unordered List Example</h3>
+<ul>
+  <li>Car</li>
+  <li>Bike</li>
+  <li>Bus</li>
+</ul>
+
+
+Type Attribute (bullet style):
+
+type="disc" -> Solid circle (default)
+type="circle" -> Hollow circle
+type="square" -> Solid square
+
+Example with Type:
+
+<ul type="square">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+3. Nested Lists
+
+Concept:
+One list inside another list.
+Can combine <ol> and <ul> together.
+
+Example:
+
+<h3>Nested List Example</h3>
+<ol>
+  <li>Fruits
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+    </ul>
+  </li>
+  <li>Vegetables
+    <ul>
+      <li>Potato</li>
+      <li>Tomato</li>
+    </ul>
+  </li>
+</ol>
+
+
+
+11. Forms in HTML
+
+Forms are used to collect user input and send it to a server for processing.
+<form> -> Defines a form.
+Form elements: <input>, <textarea>, <select>, <label>, <button>, etc.
+
+11.1 Basic Form Structure
+
+<form>
+      <label for="itname">Enter Your Name:</label>
+      <input
+        type="text"
+        id="itname"
+        name="itname"
+        placeholder="Enter your Name"
+        required
+      />
+      <button>Submit</button>
+</form>
+
+
+
+
+<form> -> Defines the start of a form.
+It is used to collect user input.
+
+
+<label for="itname">Enter Your Name:</label>
+<label> -> Defines a caption or descriptive text for an input field, helping users understand what information they should enter.
+for="itname" -> Connects the label to the input whose id="itname".
+Clicking the label will focus the input box.
+Text shown: “Enter Your Name:”
+
+
+<input> -> Creates a field where user can enter data.
+type="text" -> Specifies it’s a single-line text box.
+id="itname" -> Unique identifier for this input (used by <label> or JavaScript).
+name="itname" -> The name of the input field; important when sending data to server.
+placeholder="Enter your Name" -> Grey hint text shown inside the box until user types something.
+required -> User must fill this field; otherwise the form won’t submit.
+/> -> Self-closing tag (input has no separate closing tag).
+
+
+11.2 Input Types
+
+Concept:
+
+The <input> tag supports different types of fields.
+
+Common Input Types:
+
+type="text" -> Single-line text box
+type="password" -> Password (hidden text)
+type="email" -> Email input
+type="number" -> Numeric input
+type="date" -> Date picker
+type="checkbox" -> Multiple choice options
+type="radio" -> Single choice options
+type="submit" -> Submit button
+type="reset" -> Reset/clear form
