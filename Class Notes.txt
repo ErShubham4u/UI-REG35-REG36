@@ -1,0 +1,100 @@
+HTML Notes
+
+1. Headings
+
+HTML provides 6 levels of headings:
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+
+Concept:
+
+<h1> → Opening tag
+</h1> → Closing tag
+Content inside tags → Heading text
+Element = Opening tag + Content + Closing tag
+
+2. Paragraphs
+
+<p>This is a paragraph.</p>
+
+3. Line Break & Horizontal Rule
+
+<br>   <!-- Line break -->
+<hr>   <!-- Horizontal line -->
+
+4. Text Formatting
+
+<b>Bold Text</b>
+<i>Italic Text</i>
+<strong>Strong (important) text</strong>
+<em>Emphasized (italic) text</em>
+
+Example:
+
+<p>Java <b><i>Full Stack</i></b> - Spring, Spring Boot, Kafka, Docker...</p>
+
+5. Links (Anchor Tag)
+
+<a href="https://www.completejavaclasses.com/testimonial.php">Click Me</a>
+
+Target Attribute:
+
+target="_self" → Default, opens link in same tab
+target="_blank" → Opens link in new tab
+
+6. Images
+
+<img src="image.jpg" alt="Photo" width="300" height="200">
+
+
+src → Image source (URL or path)
+alt → Alternative text (shown if image not available)
+width & height → Resize image
+
+7. Subscript & Superscript
+
+<p>H<sub>2</sub>O</p>   <!-- Subscript -->
+<p>a<sup>2</sup> + b<sup>2</sup></p>   <!-- Superscript -->
+
+8. Tables
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>xyz</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>abc</td>
+  </tr>
+</table>
+
+
+<table> → Defines table
+<tr> → Table row
+<th> → Table header (bold & centered)
+<td> → Table data
+
+Colspan Example:
+
+<td colspan="2">Merged Cell</td>
+
+9. CSS in HTML
+
+Internal CSS → Written inside <style> tag in <head> section.
+
+<style>
+  table {
+    border: 2px solid red;
+  }
+</style>
