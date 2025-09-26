@@ -96,5 +96,6 @@ Internal CSS → Written inside <style> tag in <head> section.
 <style>
   table {
     border: 2px solid red;
+    border-collapse: collapse;
   }
 </style>
