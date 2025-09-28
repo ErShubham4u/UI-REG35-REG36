@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Elite Matrimonial - Registration</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <h2>All Fields are Mandatory</h2>
+    <form action="thankyou.html" method="get">
+      <label for="name">Full Name</label><br />
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter Full Name"
+        required
+      /><br /><br />
+
+      <label for="mail">Email</label><br />
+      <input
+        id="mail"
+        type="email"
+        name="mail"
+        placeholder="Enter Email"
+        required
+      /><br /><br />
+
+      <label for="age">Age</label><br />
+      <input
+        id="age"
+        type="number"
+        name="age"
+        placeholder="Enter Age"
+        required
+      /><br /><br />
+
+      <h3>Are You Interested In Dating?</h3>
+      <label><input type="radio" name="dating" value="yes" /> Yes</label>
+      <label><input type="radio" name="dating" value="no" /> No</label
+      ><br /><br />
+
+      <h3>Your Preferences</h3>
+      <select name="preference">
+        <option value="educated">Well Educated</option>
+        <option value="professional">Working Professional</option>
+        <option value="family">Family Oriented</option>
+        <option value="entrepreneur">Entrepreneur</option></select
+      ><br /><br />
+
+      <h3>Number of Marriages You Expect</h3>
+      <select name="marriages">
+        <option value="One">1</option>
+        <option value="Two">2</option>
+        <option value="Three">3</option></select
+      ><br /><br />
+
+      <h3>Lifestyle Choices</h3>
+      <label
+        ><input type="checkbox" name="lifestyle" value="non-smoker" />
+        Non-Smoker</label
+      >
+      <label
+        ><input type="checkbox" name="lifestyle" value="social-drinker" />
+        Social Drinker</label
+      >
+      <label
+        ><input type="checkbox" name="lifestyle" value="teetotaler" />
+        Teetotaler</label
+      ><br /><br />
+
+      <h3>Additional Information</h3>
+      <textarea
+        name="info"
+        rows="6"
+        cols="60"
+        placeholder="Write your preferences..."
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
