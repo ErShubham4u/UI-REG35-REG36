@@ -1,0 +1,100 @@
+
+Set 1
+
+1. What is HTML?
+2. What is the latest version of HTML?
+3. What are the differences between HTML5 and HTML4?
+4. What are the new features of HTML5?
+5. What is a DOCTYPE in HTML?
+
+Set 2
+
+6. What is the difference between HTML and XHTML?
+7. What are the semantic elements in HTML5?
+8. What is the difference between a div and a span in HTML?
+9. What is the difference between an id and a class in HTML?
+10. What is the difference between a relative and absolute URL in HTML?
+
+Set 3
+
+11. What is the alt attribute in HTML?
+12. What is the role attribute in HTML?
+13. What is the difference between a GET and a POST method in HTML?
+14. What is the target attribute in HTML?
+15. What is the difference between a block-level element and an inline-level element in HTML?
+
+Set 4
+
+16. What is the difference between the em tag and the strong tag in HTML?
+17. What is the difference between the ul tag and the ol tag in HTML?
+18. What is the difference between the input type "text" and "password" in HTML?
+19. What is the difference between the HTML tags "<span>" and "<div>"?
+20. What is the difference between the HTML tags "<strong>" and "<em>"?
+
+Set 5
+
+21. What is the HTML attribute "href" used for?
+22. What is the HTML attribute "alt" used for?
+23. What is the HTML attribute "title" used for?
+24. What is the HTML attribute "class" used for?
+25. What is the HTML attribute "id" used for?
+
+Set 6
+
+26. What is the HTML attribute "target" used for?
+27. What is the HTML attribute "rel" used for?
+28. What is the difference between the HTML tags "<head>" and "<body>"?
+29. What is the purpose of the HTML tag "<meta>"?
+30. What is the difference between the HTML tags "<ol>" and "<ul>"?
+
+Set 7
+
+31. What is the HTML attribute "type" used for in the "<ol>" and "<ul>" tags?
+32. What is the HTML attribute "start" used for in the "<ol>" tag?
+33. What is the HTML tag "<li>" used for?
+34. What is the HTML tag "<caption>" used for?
+35. What is the HTML tag "<table>" used for?
+
+Set 8
+
+36. What is the HTML tag "<th>" used for?
+37. What is the HTML tag "<tr>" used for?
+38. What is the HTML tag "<td>" used for?
+39. What is the difference between the HTML tags "<thead>" and "<tbody>"?
+40. What is the HTML tag "<colgroup>" used for?
+
+Set 9
+
+41. What is the HTML attribute "colspan" used for?
+42. What is the HTML attribute "rowspan" used for?
+43. What is the HTML tag "<form>" used for?
+44. What is the HTML attribute "action" used for?
+45. What is the HTML attribute "method" used for?
+
+Set 10
+
+46. What is the HTML tag "<input>" used for?
+47. What is the HTML attribute "placeholder" used for?
+48. What is the HTML attribute "required" used for?
+49. What is the HTML tag "<select>" used for?
+50. What is the HTML tag "<textarea>" used for?
+
+Set 11
+
+51. What is the HTML attribute "disabled" used for?
+52. What is the HTML attribute "readonly" used for?
+53. What is the HTML tag "<label>" used for?
+54. What is the HTML tag "<button>" used for?
+55. What is the HTML attribute "type" used for?
+
+Set 12
+
+56. What is the HTML attribute "value" used for?
+57. What is the HTML attribute "src" used for?
+58. What is the HTML tag "<a>" used for?
+
+
+For Further Practice & More HTML Interview Questions
+Enhance your preparation with additional questions and resources:
+InterviewBit – HTML Interview Questions
+https://www.interviewbit.com/html-interview-questions/
