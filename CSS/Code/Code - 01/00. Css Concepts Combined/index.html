@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Concepts Demo</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* CSS Syntax Example */
+        p {
+            color: darkred;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .center {
+            text-align: center;
+            color: green;
+        }
+
+        /* ID Selector */
+        #para1 {
+            font-size: 20px;
+            color: blue;
+        }
+
+        /* Universal Selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Grouping Selector */
+        h1, h2, p {
+            margin: 10px;
+        }
+
+        /* Nested Selector */
+        body .container p {
+            color: purple;
+        }
+
+        /* Colors */
+        .color-demo {
+            background-color: lightyellow;
+            color: rgb(0, 128, 128);
+            border: 2px solid #ff6600;
+        }
+
+        /* Units */
+        .unit-demo {
+            width: 50%;            /* percentage */
+            font-size: 1.5em;      /* em */
+            padding: 1rem;         /* rem */
+            height: 20vh;          /* viewport height */
+            border: 5px solid black; /* px */
+            background-color: lightblue;
+        }
+
+        /* Box Model */
+        .box {
+            margin: 20px;           /* outside space */
+            padding: 15px;          /* inside space */
+            border: 3px solid red;  /* border */
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color:blue; text-align:center;">Inline CSS Example</h1>
+    <p style="color:red;">This paragraph uses inline CSS.</p>
+
+    <!-- ID Selector -->
+    <p id="para1">This is styled with ID selector (#para1).</p>
+
+    <!-- Class Selector -->
+    <p class="center">This is styled with Class Selector (.center).</p>
+
+    <!-- Nested Selector -->
+    <div class="container">
+        <p>This paragraph is inside .container (Nested Selector).</p>
+    </div>
+
+    <!-- Colors -->
+    <div class="color-demo">
+        <h2>CSS Colors Example</h2>
+        <p>Using color names, RGB, and HEX.</p>
+    </div>
+
+    <!-- Units -->
+    <div class="unit-demo">
+        <h2>CSS Units Example</h2>
+        <p>This box uses %, em, rem, vh, and px units.</p>
+    </div>
+
+    <!-- Box Model -->
+    <div class="box">
+        <h2>CSS Box Model Example</h2>
+        <p>Content Area inside Margin, Padding, and Border.</p>
+    </div>
+
+</body>
+</html>
