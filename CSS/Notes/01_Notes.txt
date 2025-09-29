@@ -1,0 +1,210 @@
+CSS Syntax
+
+
+Inline, Internal, and External CSS
+
+Inline CSS
+
+An inline style may apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. 
+The style attribute can contain any CSS property.
+
+
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+Internal CSS
+
+An internal style sheet may be used if one single HTML page has a unique style.
+The internal style is defined inside the <style> element, inside the head section.
+
+External CSS
+
+With an external style sheet, you can change the look of an entire website by
+changing just one file!
+Each HTML page must include a reference to the external style sheet file inside the
+<link> element, inside the head section.
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+
+Selectors in CSS
+
+
+Element Selector
+
+The element selector selects HTML elements based on the element name.
+
+p {
+    text-align: center;
+    color: red;
+}
+
+class Selector
+
+The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by
+the class name.
+
+
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+id Selector
+
+The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to 
+select one unique element!
+To select an element with a specific id, write a hash (#) character, 
+followed by the id of the element.
+
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+
+Universal Selector : *
+
+The universal selector (*) selects all HTML elements on the page.
+
+* {
+    text-align: center;
+    color: blue;
+}
+
+Grouping Selector
+
+The grouping selector selects all the HTML elements with the same style definitions.
+To group selectors, separate each selector with a comma.
+
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
+
+Nested Selector
+
+The nested selectors select an HTML Element inside another HTML element by making
+ a nested reference. 
+To make a nested selector, separate each selector with a space in the hierarchy.
+
+body .center p {
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+CSS Color property
+
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values. 
+In CSS, a color can be specified by using a predefined color name:
+
+
+Units in CSS
+
+Absolute Unit
+
+px unit
+
+px unit is fixed in size no matter what screen size you choose. That's why the px
+unit is always preferred for borders because borders are also kept fixed across
+all screen sizes.
+
+Percentage Unit
+
+This is used for setting the width of an element and it's always relative to its
+immediate parent element size. If there's no defined parent then by default body is
+considered the parent.
+
+
+
+Relative Unit
+
+Relative to font size:
+
+em unit
+
+The em unit is always relative to the font size of its immediate parent. 1em
+== to the size of the parent's font size. The default font size is 16px if not
+overridden, let's say in the parent element the font size is 48px then in the
+child element 1em == 48px.
+
+rem unit (r stands for root em)
+
+And unlike em it's always relative to the root font size no matter what font
+size it's very next parent element has. if the root has redefined font-size like
+60px then 1rem == 60px in child.
+
+
+Relative to view port/document
+
+vw and vh units
+
+vw stands for the viewport width which means vw is always relative to the
+1% of the width of root, irrespective of parent element's width. So, if 1vw ==
+1% then 100vw == 100% of the viewport width.
+
+Similarly vh stands for viewport height like vw it's also relative to the 1%
+height of root/document.
+
+
+
+
+
+
+
+
+How to decide CSS Units for a responsive website:
+
+px unit for borders.
+% unit for width relative to the parent.
+em unit for margin and padding relative to fonts size of element.
+rem unit for fonts size relative to root.
+vw and vh for width and height relative to root.
+
+
+
+
+
+
+
+
+
+
+CSS Box Model
+
+The Div Tag
+
+The  <div>  tag defines a division or a section in an HTML document. 
+The  <div>  tag is used as a container for HTML elements - which is then styled with CSS or
+manipulated with JavaScript.
+The  <div>  tag is easily styled by using the class or id attribute.
+Any sort of content can be put inside the  <div>  tag!
+
+
+Margin vs Padding
+
+Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+
+We use margin and padding attributes with left, right, top and bottom extensions to
+further fine-tune the values.
