@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overflow Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 20px;
+        }
+        .visible { overflow: visible; }
+        .hidden { overflow: hidden; }
+        .scroll { overflow: scroll; }
+        .auto { overflow: auto; }
+    </style>
+</head>
+<body>
+    <div class="box visible">
+        <p>Overflow Visible: This is a long text that will overflow outside the box.</p>
+    </div>
+    <div class="box hidden">
+        <p>Overflow Hidden: This is a long text that will be cut.</p>
+    </div>
+    <div class="box scroll">
+        <p>Overflow Scroll: This is a long text with scrollbars.</p>
+    </div>
+    <div class="box auto">
+        <p>Overflow Auto: This will add scrollbars only if needed.</p>
+    </div>
+</body>
+</html>
