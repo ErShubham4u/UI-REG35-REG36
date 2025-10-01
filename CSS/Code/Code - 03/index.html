@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text & Font Properties</title>
+    <style>
+      /* ===== Text Properties ===== */
+      /* Color */
+      .color-example {
+        color: red;
+      }
+
+      /* Text Align */
+      .align-left {
+        text-align: left;
+      }
+      .align-right {
+        text-align: right;
+      }
+      .align-center {
+        text-align: center;
+      }
+      .align-justify {
+        text-align: justify;
+      }
+
+      /* Text Decoration */
+      .underline {
+        text-decoration-line: underline;
+      }
+      .overline {
+        text-decoration-line: overline;
+      }
+      .line-through {
+        text-decoration-line: line-through;
+      }
+      .multi-decoration {
+        text-decoration-line: underline overline;
+      }
+      .decoration-color {
+        text-decoration: underline blue;
+      }
+      .decoration-style {
+        text-decoration: underline wavy green;
+      }
+      .decoration-thickness {
+        text-decoration: underline red double 3px;
+      }
+
+      /* Text Transform */
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .lowercase {
+        text-transform: lowercase;
+      }
+      .capitalize {
+        text-transform: capitalize;
+      }
+
+      /* Text Spacing */
+      .indent {
+        text-indent: 50px;
+      }
+      .letter-space {
+        letter-spacing: 5px;
+      }
+      .line-height {
+        line-height: 2;
+      }
+      .word-space {
+        word-spacing: 15px;
+      }
+
+      /* Text Shadow */
+      .shadow {
+        text-shadow: 2px 2px 4px #ccc;
+      }
+
+      /* ===== Font Properties ===== */
+      .font-size {
+        font-size: 24px;
+      }
+      .font-rem {
+        font-size: 2rem;
+      }
+      .font-weight {
+        font-weight: bold;
+      }
+      .font-family {
+        font-family: "Courier New", monospace;
+      }
+      .font-style-italic {
+        font-style: italic;
+      }
+      .font-style-oblique {
+        font-style: oblique;
+      }
+
+      /* Google Fonts */
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+      .google-font {
+        font-family: "Roboto Slab", serif;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        line-height: 1.6;
+      }
+      h2 {
+        margin-top: 30px;
+        color: darkblue;
+      }
+      p {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Text & Font Properties Examples</h1>
+
+    <!-- Text Properties -->
+    <h2>Text Properties</h2>
+    <p class="color-example">This text is red (color property).</p>
+
+    <p class="align-left">This text is left aligned.</p>
+    <p class="align-right">This text is right aligned.</p>
+    <p class="align-center">This text is center aligned.</p>
+    <p class="align-justify">
+      This text is justify aligned. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Duis eget.
+    </p>
+
+    <p class="underline">This is underlined text.</p>
+    <p class="overline">This is overlined text.</p>
+    <p class="line-through">This is line-through text.</p>
+    <p class="multi-decoration">This has underline and overline together.</p>
+    <p class="decoration-color">This underline is blue.</p>
+    <p class="decoration-style">This underline is wavy green.</p>
+    <p class="decoration-thickness">
+      This underline is red, double, and thick.
+    </p>
+
+    <p class="uppercase">this text is transformed to uppercase.</p>
+    <p class="lowercase">THIS TEXT IS TRANSFORMED TO LOWERCASE.</p>
+    <p class="capitalize">this text is capitalized word by word.</p>
+
+    <p class="indent">This text has an indent of 50px at the beginning.</p>
+    <p class="letter-space">This text has letter spacing of 5px.</p>
+    <p class="line-height">
+      This text has a line height of 2. Notice the extra space between lines.<br />Second
+      line for demonstration.
+    </p>
+    <p class="word-space">This text has word spacing of 15px.</p>
+
+    <p class="shadow">This text has a shadow effect.</p>
+
+    <!-- Font Properties -->
+    <h2>Font Properties</h2>
+    <p class="font-size">This text has a font-size of 24px.</p>
+    <p class="font-rem">This text uses 2rem font size.</p>
+    <p class="font-weight">This text is bold using font-weight.</p>
+    <p class="font-family">This text uses Courier New font family.</p>
+    <p class="font-style-italic">This text is italic.</p>
+    <p class="font-style-oblique">This text is oblique.</p>
+    <p class="google-font">This text uses Google Font "Roboto Slab".</p>
+  </body>
+</html>

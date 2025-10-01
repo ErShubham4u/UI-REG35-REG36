@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Display, Float, Overflow & Position</title>
+  <style>
+    /* === Display === */
+    .inline-demo span {
+      display: inline;
+      border: 1px solid red;
+      padding: 5px;
+    }
+    .block-demo div {
+      display: block;
+      border: 1px solid green;
+      margin: 5px 0;
+      padding: 10px;
+    }
+    .inline-block-demo div {
+      display: inline-block;
+      width: 120px;
+      height: 50px;
+      border: 1px solid blue;
+      margin: 5px;
+    }
+    .none-demo {
+      display: none;
+    }
+
+    /* === Float & Clear === */
+    .float-demo img {
+      float: left;
+      width: 100px;
+      margin: 10px;
+    }
+    .clear-demo {
+      clear: both;
+      border: 2px solid purple;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    /* === Overflow === */
+    .overflow-demo {
+      width: 250px;
+      height: 100px;
+      border: 2px solid orange;
+      margin: 10px 0;
+      overflow: auto; /* try visible, hidden, scroll, clip */
+    }
+
+    /* === Position === */
+    .position-container {
+      position: relative;
+      height: 250px;
+      border: 2px solid black;
+      margin: 20px 0;
+    }
+    .static-box {
+      position: static;
+      background: lightgray;
+      padding: 10px;
+    }
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background: lightblue;
+      padding: 10px;
+    }
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      background: lightgreen;
+      padding: 10px;
+    }
+    .fixed-box {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: lightpink;
+      padding: 10px;
+    }
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background: yellow;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Display, Float, Overflow & Position Demo</h1>
+
+  <!-- Display -->
+  <h2>Display: inline</h2>
+  <div class="inline-demo">
+    <span>Inline 1</span>
+    <span>Inline 2</span>
+    <span>Inline 3</span>
+  </div>
+
+  <h2>Display: block</h2>
+  <div class="block-demo">
+    <div>Block 1</div>
+    <div>Block 2</div>
+    <div>Block 3</div>
+  </div>
+
+  <h2>Display: inline-block</h2>
+  <div class="inline-block-demo">
+    <div>Box 1</div>
+    <div>Box 2</div>
+    <div>Box 3</div>
+  </div>
+
+  <h2>Display: none</h2>
+  <p>This text is visible</p>
+  <p class="none-demo">This text is hidden (display: none)</p>
+  <p>This text is also visible</p>
+
+  <!-- Float & Clear -->
+  <h2>Float & Clear</h2>
+  <div class="float-demo">
+    <img src="https://via.placeholder.com/100" alt="float image">
+    <p>This paragraph wraps around the floated image. The image is floated left, so the text flows beside it.</p>
+    <div class="clear-demo">This box is cleared (clear: both) and appears below the floated content.</div>
+  </div>
+
+  <!-- Overflow -->
+  <h2>Overflow</h2>
+  <div class="overflow-demo">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo nec sapien dictum euismod. Donec luctus, nunc vel venenatis tincidunt, 
+    justo odio malesuada purus, nec eleifend massa purus sit amet lectus. Proin ut tortor et risus fermentum suscipit.
+  </div>
+
+  <!-- Position -->
+  <h2>Position</h2>
+  <div class="position-container">
+    <div class="static-box">Static (default)</div>
+    <div class="relative-box">Relative (moved 20px)</div>
+    <div class="absolute-box">Absolute (inside container)</div>
+    <div class="sticky-box">Sticky (sticks to top when scrolling)</div>
+  </div>
+
+  <div style="height:600px;">
+    Scroll down to see <b>Fixed Box</b> stay in corner ⬇
+  </div>
+
+  <div class="fixed-box">Fixed (stays bottom-right)</div>
+
+</body>
+</html>

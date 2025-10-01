@@ -1,0 +1,98 @@
+##Text Properties
+
+    Color
+        The color property is used to set the color of the text. The color is specified by:
+
+    text-align property
+    The text-align property is used to set the horizontal alignment of a text.
+        left
+        right
+        center
+        justify
+
+    Text-decoration
+
+        text-decoration-line
+        The text-decoration-line property is used to add a decoration line to the text.
+        Tip: You can combine more than one value, like overline and underline to
+        display lines both over and under a text.
+            underline
+            overline
+            line-through
+        
+        text-decoration-color
+            The text-decoration-color property is used to set the color of the decoration line.
+        
+        text-decoration-style
+        The text-decoration-style property is used to set the style of the decoration line.
+            solid
+            double
+            dotted
+            dashed
+            wavy
+
+        text-decoration-thickness
+        The text-decoration-thickness property is used to set the thickness of the
+        decoration line.
+
+        text-decoration
+        The text-decoration property is a shorthand property for:
+            text-decoration-line (required)
+            text-decoration-color (optional)
+            text-decoration-style (optional)
+            text-decoration-thickness (optional)
+
+    Text Transform
+
+    The text-transform property is used to specify uppercase and lowercase letters in a
+    text.
+    It can be used to turn everything into uppercase or lowercase letters, or capitalize
+    the first letter of each word:
+
+    Text Spacing
+
+        text-indent
+        The text-indent property is used to specify the indentation of the first line of a
+        text.
+
+        letter-spacing
+        The letter-spacing property is used to specify the space between the characters
+        in a text.
+
+        line-height
+        The line-height property is used to specify the space between lines.
+
+        word-spacing
+        The word-spacing property is used to specify the space between the words in a
+        text.
+
+    Text Shadow
+
+    The text-shadow property adds a shadow to the text. You specify the:
+    horizontal shadow (2px), vertical shadow (2px), blur, and color
+        text-shadow: 2px 2px 4px #ccc;
+
+## Font Properties
+
+    font-size
+        We can use px, em, rem, %, vw etc. for defining the font size. It is recommended to
+        use the rem unit.
+
+    font-weight
+        The font-weight property specifies the weight of a font.
+    
+    font-family
+        Serif, sans-serif, monospace, cursive, fantasy. You can also define your own font
+        family by using google fonts as later explained in this section.
+
+    font-style
+        The font-style property is mostly used to specify italic text.
+        This property has three values:
+        normal - The text is shown normally
+        italic - The text is shown in italics
+        oblique - The text is "leaning" (oblique is very similar to italic but less supported)
+    
+    Google Fonts
+        If you do not want to use any of the standard fonts in HTML, you can use Google
+        Fonts.
+        Google Fonts are free to use, and have more than 1000 fonts to choose from.
