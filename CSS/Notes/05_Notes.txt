@@ -1,0 +1,17 @@
+
+Basics of Bootstrap
+
+    When should you really use Bootstrap?
+
+        Need a Front-end fast
+        Need a Front-end for Internal Usage (e.g. Internal-Dashboards etc.)
+        Don’t care about the UI, It should just be a working Frontend.
+        Learning Backend like NodeJS and need a quick Frontend. And don’t care about CSS
+
+    When should you not use Bootstrap?
+
+        Need a Frontend for Customers/Clients
+        Just started learning CSS
+        Have enough time to create a website UI
+        Only going to use a few Components of Bootstrap
+ 
