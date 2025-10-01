@@ -1,0 +1,42 @@
+## CSS FlexBox
+
+Flexbox is a great way to get more flexibility in your layouts and to simplify responsive layout design.
+
+It makes it easy to align elements on a 2D plane and is pretty easy to use once you get familiar with the 
+main properties.
+
+The first step is to set display: flex on a “container” element. The “children” to the flex container become flex
+ items. 
+A set of properties can be applied to flex containers, and have an effect to all the items 
+as a whole, and a different 
+set of properties can be applied to flex items and have their effect on the targeted items. 
+Flex items can in turn also 
+be flex containers for the elements it contains, making it easy to create complex layouts.
+
+## CSS Flexbox
+
+To start using the Flexbox model, you first need to define a flex container.
+Two axes of flexbox
+    Main Axis -> justify-content
+    Cross Axis -> align-items
+
+CSS Flex Container
+The flex container properties are:
+
+    justify-content
+
+    The justify-content property is used to align the flex items in main-axis
+        center
+        flex-start
+        flex-end
+        space-around
+        space-between
+
+    align-items
+    
+    The align-items property is used to align the flex items in cross-axis
+        center
+        flex-start
+        flex-end
+        stretch
+        baseline
