@@ -1,0 +1,43 @@
+Fundamental CSS Interview Questions
+
+What is CSS?
+Name all the modules which are used in the current version of CSS.
+Distinguish between CSS2 and CSS3.
+Cite different types of CSS.
+Why is the external style sheet useful?
+What are the uses of an embedded style sheet?
+How to use CSS selector?
+Explain the concept of Tweening.
+Define CSS image scripts.
+Explain the term Responsive web design.
+What are CSS counters?
+
+CSS Interview Questions for Experienced Professionals
+
+What is CSS specificity?
+How can we calculate specificity?
+How do we make a rounded corner by using CSS?
+How will you add border images to an HTML element?
+What are gradients in CSS?
+What is CSS flexbox?
+Write all the properties of the flexbox.
+How to align an image vertically in a division that spans vertically on the whole webpage?
+What is the difference between padding and margin?
+What is the use of the Box Model in CSS?
+How can we add icons to the web page?
+
+Scenario-Based HTML & CSS Interview Questions
+
+What is a CSS pseudo-class?
+Explain the concept of pseudo-elements in CSS.
+What is CSS opacity?
+Write all the position states used in CSS.
+What are navigation bars in CSS?
+What are the differences between relative and absolute in CSS?
+Define ‘important’ declarations used in CSS.
+Define different cascading methods that can be used inside the cascading order.
+
+
+Differentiate between inline and block elements.
+How is the concept of inheritance applied in CSS?
+Differentiate between the ID and class.
